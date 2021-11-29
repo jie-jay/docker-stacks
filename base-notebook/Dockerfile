@@ -25,6 +25,8 @@ RUN apt-get update --yes && \
     apt-get install --yes --no-install-recommends \
     tini \
     wget \
+    tmux \
+    net-tools \
     ca-certificates \
     sudo \
     locales \
